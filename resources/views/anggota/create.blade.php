@@ -85,9 +85,9 @@ $(document).ready(function() {
                             <div class="col-md-6">
                             <select class="form-control" name="prodi" required="">
                                 <option value=""></option>
-                                <option value="TI">Teknik Informatika</option>
-                                <option value="SI">Sistem Informasi</option>
-                                <option value="KM">Kesehatan Masyarakat</option>
+                                <option value="TI">Teknologi Informasi</option>
+                                <option value="TEKOM">Teknik Komputer</option>
+                                <option value="TIF">Teknik Informatika</option>
                             </select>
                             </div>
                         </div>

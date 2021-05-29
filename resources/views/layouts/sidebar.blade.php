@@ -55,27 +55,4 @@
               <span class="menu-title">Transaksi</span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#ui-laporan" aria-expanded="false" aria-controls="ui-laporan">
-              <i class="menu-icon mdi mdi-table"></i>
-              <span class="menu-title">Laporan</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="ui-laporan">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item">
-                  <a class="nav-link" href="{{url('laporan/trs')}}">Laporan Transaksi</a>
-                </li>
-                <!--
-                <li class="nav-item">
-                  <a class="nav-link" href="">Laporan Anggota</a>
-                </li>
-                -->
-                 <li class="nav-item">
-                  <a class="nav-link" href="{{url('laporan/buku')}}">Laporan Buku</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-         
         </ul>
