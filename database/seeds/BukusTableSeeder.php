@@ -54,6 +54,20 @@ class BukusTableSeeder extends Seeder
               'created_at'      => \Carbon\Carbon::now(),
               'updated_at'      => \Carbon\Carbon::now()
             ],
+            [
+              'id'  			=> 4,
+              'judul'  			=> 'Android System',
+              'isbn'			=> '9230392000',
+              'pengarang' 		=> 'Dina junimar',
+              'penerbit'		=> 'PT. Kasih Ayah',
+              'tahun_terbit'	=> 2018,
+              'jumlah_buku'		=> 35,
+              'deskripsi'		=> 'Buku  Belajar Pemrograman Java Pemula',
+              'lokasi'			=> 'rak2',
+              'cover'			=> 'jurus_rahasia.jpg',
+              'created_at'      => \Carbon\Carbon::now(),
+              'updated_at'      => \Carbon\Carbon::now()
+            ]
         ]);
     }
 }

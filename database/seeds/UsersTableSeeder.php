@@ -14,9 +14,9 @@ class UsersTableSeeder extends Seeder
        \App\User::insert([
             [
               'id'  			=> 1,
-              'name'  			=> 'Gilacoding - Admin',
-              'username'		=> 'admin123',
-              'email' 			=> '123456@gilacoding.com',
+              'name'  			=> 'Haryanto - Admin',
+              'username'		=> 'haryanto',
+              'email' 			=> 'haryanto@gmail.com',
               'password'		=> bcrypt('admin123'),
               'gambar'			=> NULL,
               'level'			=> 'admin',
@@ -26,9 +26,21 @@ class UsersTableSeeder extends Seeder
             ],
             [
               'id'  			=> 2,
-              'name'  			=> 'Gilacoding - User',
-              'username'		=> 'user123',
-              'email' 			=> '654321@gilacoding.com',
+              'name'  			=> 'Gabe - User',
+              'username'		=> 'gaberingo',
+              'email' 			=> 'gaberingo12@gmail.com',
+              'password'		=> bcrypt('user123'),
+              'gambar'			=> NULL,
+              'level'			=> 'user',
+              'remember_token'	=> NULL,
+              'created_at'      => \Carbon\Carbon::now(),
+              'updated_at'      => \Carbon\Carbon::now()
+            ],
+            [
+              'id'  			=> 3,
+              'name'  			=> 'Gevan - User',
+              'username'		=> 'gevanyudistira',
+              'email' 			=> 'gevan@gmail.com',
               'password'		=> bcrypt('user123'),
               'gambar'			=> NULL,
               'level'			=> 'user',
